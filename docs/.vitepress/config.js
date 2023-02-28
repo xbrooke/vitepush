@@ -1,6 +1,6 @@
 module.exports = {
     title: "徐大兵", // 顶部左侧标题
-    base: "/doc-react-ant-admin/", // 项目的根路径
+    base: "/", // 项目的根路径
     head: [
       // 设置 描述 和 关键词
       [
