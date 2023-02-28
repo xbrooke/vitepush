@@ -41,7 +41,7 @@ const nav = [
   {text: '首页', link: '/'},
   {
       text: '案例1',
-      activeMatch: '/brooke/',
+      activeMatch: '',
       items: [
           {
               text: '介绍',
@@ -61,7 +61,7 @@ const nav = [
   },
   {
       text: '案例2',
-      activeMatch: '/brooke2/',
+      activeMatch: '',
       items: [
           {text: '1', link: '/brooke2/1'},
           {text: '2', link: '/brooke2/2'},
@@ -71,7 +71,7 @@ const nav = [
 
 // 全局左侧菜单
 const sidebar = {
-  '/brooke/': [
+  '': [
       {
           text: '案例1',
           // 是否可收缩
