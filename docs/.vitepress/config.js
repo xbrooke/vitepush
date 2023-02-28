@@ -71,7 +71,7 @@ const nav = [
 
 // 全局左侧菜单
 const sidebar = {
-  '/demo1/': [
+  '/brooke/': [
       {
           text: '案例1',
           // 是否可收缩
@@ -145,7 +145,7 @@ module.exports = {
   // 站点说明
   description: '徐大兵',
   // base URL
-  base: '。/',
+  base: 'vite',
   // 站点lang
   lang: 'zh-CN',
   // 是否显示更新时间
