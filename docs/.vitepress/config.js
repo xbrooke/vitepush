@@ -32,8 +32,8 @@ const footer = {
 
 // 上一个和下一个链接上方显示的文本
 const docFooter = {
-  prev: '🫲',
-  next: '🫱'
+  prev: '徐大兵',
+  next: 'https://xbrooke.cn'
 }
 
 // 顶部导航
@@ -44,7 +44,7 @@ const nav = [
       activeMatch: '/brooke/',
       items: [
           {
-              text: '1',
+              text: '介绍',
               items: [
                   {text: '1', link: '/brooke/1'},
                   {text: '2', link: '/brooke/2'},
