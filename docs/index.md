@@ -6,7 +6,7 @@ hero:
   text: 杂鱼一枚，随便写点啥。
   tagline: 前端(Vue)/后端(Java) 😂...
   image:
-    src: ././images/logo.png
+    src: ./images/logo.png
     alt: Cobweb Docs Vitepress
   actions:
     - theme: brand
