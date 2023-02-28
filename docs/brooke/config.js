@@ -1,6 +1,6 @@
 module.exports = {
     title: '徐大兵',
-    base: './',
+    base: '/',
     description: 'Just playing around.',
     themeConfig: {
         nav: [
