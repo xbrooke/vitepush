@@ -1,31 +1,44 @@
 ---
 layout: home
- 
+
 hero:
-  name: 名称
-  text: 文本
-  tagline: 标语
+  name: Cobweb Docs
+  text: 杂鱼一枚，随便写点啥。
+  tagline: 前端(Vue)/后端(Java) 😂...
+  image:
+    src: ././images/logo.png
+    alt: Cobweb Docs Vitepress
   actions:
     - theme: brand
-      text: 开始
-      link: /brooke/
+      text: Start
+      link: ./booke/01
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
- 
+      text: osChina
+      link: https://my.oschina.net/520wsl
+
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 前端
+    details: JavaScript, TypeScript, Vue, Vite, Node.Js
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 后端
+    details: Python3, PHP, SprinBoot, mysql, seqServer
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 组件
+    details: vue-cobweb, vue-cobweb-app
+  - icon: 🔧
+    title: 工具
+    details: project-general-tools
+  - icon: 🧱 
+    title: 技术
+    details: 从0-1搭建vue项目, 使用vitepress搭建博客
+  - icon: 📦
+    title: 大杂烩
+    details: git, hexo
 ---
+
 <style>
-    :root {
+  :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
 }
