@@ -1,5 +1,5 @@
 const head = [
-  ['link', {rel: 'icon', href: '/./images/logo.png'}]
+  ['link', {rel: 'icon', href: './images/logo.png'}]
 ]
 
 // markdown 配置
@@ -119,11 +119,11 @@ const themeConfig = {
   // 顶部导航
   nav,
   // 站点标题
-  siteTitle: '蛛网文档库',
+  siteTitle: '蟹蟹有你',
   // 最后跟新时间标题
   lastUpdatedText: '上次更新',
   // logo
-  logo: '.././images/logo.png',
+  logo: './images/logo.png',
   // 社交链接
   socialLinks,
   // 页脚配置

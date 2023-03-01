@@ -4,10 +4,10 @@ layout: home
 hero:
   name:  蟹蟹有你
   text: 运营有我，签单不愁。
-  tagline: /
+  tagline: 
   image:
-    src: /
-    alt: 
+    src: ./images/logo.png
+    alt: 这是什么
   actions:
     - theme: brand
       text: 点击了解
@@ -18,11 +18,9 @@ hero:
 
 features:
   - icon: 🖖
-    title: 大众点评
-    alt: 点击查看更多
-    theme: brand
-    text: 点击了解
-    link: https://taobao.com
+    title: 后端
+    link: https://my.oschina.net/520wsl
+    details: Python3, PHP, SprinBoot, mysql, seqServer
   - icon: 🖖
     title: 后端
     details: Python3, PHP, SprinBoot, mysql, seqServer
