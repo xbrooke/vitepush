@@ -6,7 +6,7 @@ hero:
   text: 运营有我，签单不愁。
   tagline: 
   image:
-    src: ./images/logo.png
+    src: ./
     alt: 
   actions:
     - theme: brand
@@ -15,37 +15,85 @@ hero:
     - theme: alt
       text: osChina
       link: https://my.oschina.net/520wsl
-
-features:
-  - icon: 🖖 
-    title: 大众点评
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
-  - icon: 🖖 
-    title: 好好住
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
-  - icon: 🖖 
-    title: 住小帮
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
-  - icon: 🖖 
-    title: 土巴兔
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
-  - icon: 🖖 
-    title: 小红书
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
-  - icon: 🖖 
-    title: 抖音
-    link: https://my.oschina.net/520wsl
-    details: 点击了解详情 >>
 ---
 
-<style>
-  :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
-}
-</style>
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Evan You',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+]
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <!-- <template #title>
+      Our Team
+    </template> -->
+     <!--<template #lead>
+      The development of VitePress is guided by an international
+      team, some of whom have chosen to be featured below.
+    </template>-->
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    size="small"
+    :members="members"
+  />
+</VPTeamPage>
