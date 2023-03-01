@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: Cobweb Docs
-  text: 杂鱼一枚，随便写点啥。
-  tagline: 前端(Vue)/后端(Java) 😂...
+  name:  蟹蟹有你
+  text: 运营有我，签单不愁。
+  tagline: /后端(Java) 😂...
   image:
-    src: ././images/logo.png
+    src: ./images/logo.png
     alt: Cobweb Docs Vitepress
   actions:
     - theme: brand
@@ -17,9 +17,9 @@ hero:
       link: https://my.oschina.net/520wsl
 
 features:
-  - icon: ⚡️
-    title: 前端
-    details: JavaScript, TypeScript, Vue, Vite, Node.Js
+  - icon: ./images/img/meituanbao.png
+    title: 大众点评
+    details: 星级我有，
   - icon: 🖖
     title: 后端
     details: Python3, PHP, SprinBoot, mysql, seqServer
