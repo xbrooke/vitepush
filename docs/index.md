@@ -7,7 +7,7 @@ hero:
   tagline: 
   image:
     src: ./images/logo.png
-    alt: 这是什么
+    alt: 
   actions:
     - theme: brand
       text: 点击了解
@@ -17,25 +17,30 @@ hero:
       link: https://my.oschina.net/520wsl
 
 features:
-  - icon: 🖖
-    title: 后端
+  - icon: 🖖 
+    title: 大众点评
     link: https://my.oschina.net/520wsl
-    details: Python3, PHP, SprinBoot, mysql, seqServer
-  - icon: 🖖
-    title: 后端
-    details: Python3, PHP, SprinBoot, mysql, seqServer
-  - icon: 🛠️
-    title: 组件
-    details: vue-cobweb, vue-cobweb-app
-  - icon: 🔧
-    title: 工具
-    details: project-general-tools
-  - icon: 🧱 
-    title: 技术
-    details: 从0-1搭建vue项目, 使用vitepress搭建博客
-  - icon: 📦
-    title: 大杂烩
-    details: git, hexo
+    details: 点击了解详情 >>
+  - icon: 🖖 
+    title: 好好住
+    link: https://my.oschina.net/520wsl
+    details: 点击了解详情 >>
+  - icon: 🖖 
+    title: 住小帮
+    link: https://my.oschina.net/520wsl
+    details: 点击了解详情 >>
+  - icon: 🖖 
+    title: 土巴兔
+    link: https://my.oschina.net/520wsl
+    details: 点击了解详情 >>
+  - icon: 🖖 
+    title: 小红书
+    link: https://my.oschina.net/520wsl
+    details: 点击了解详情 >>
+  - icon: 🖖 
+    title: 抖音
+    link: https://my.oschina.net/520wsl
+    details: 点击了解详情 >>
 ---
 
 <style>
