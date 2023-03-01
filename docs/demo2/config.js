@@ -32,8 +32,8 @@ const footer = {
 
 // 上一个和下一个链接上方显示的文本
 const docFooter = {
-  prev: '测试',
-  next: 'https://github.com/'
+  prev: '徐大兵',
+  next: 'https://xbrooke.cn'
 }
 
 // 顶部导航
@@ -41,37 +41,37 @@ const nav = [
   {text: '首页', link: '/'},
   {
       text: '案例1',
-      activeMatch: '/demo1/',
+      activeMatch: '',
       items: [
           {
-              text: 'A',
+              text: '介绍',
               items: [
-                  {text: 'A', link: '/demo1/a'},
-                  {text: 'B', link: '/demo1/b'},
+                  {text: '1', link: '/brooke/1'},
+                  {text: '2', link: '/brooke/2'},
               ]
           },
           {
-              text: 'B',
+              text: '2',
               items: [
-                  {text: 'A', link: '/demo2/a'},
-                  {text: 'B', link: '/demo2/b'},
+                  {text: '1', link: '/brooke/1'},
+                  {text: '2', link: '/brooke/2'},
               ]
           },
       ]
   },
   {
       text: '案例2',
-      activeMatch: '/demo2/',
+      activeMatch: '',
       items: [
-          {text: 'A', link: '/demo2/a'},
-          {text: 'B', link: '/demo2/b'},
+          {text: '1', link: '/brooke2/1'},
+          {text: '2', link: '/brooke2/2'},
       ]
   }
 ]
 
 // 全局左侧菜单
 const sidebar = {
-  '/demo1/': [
+  '': [
       {
           text: '案例1',
           // 是否可收缩
@@ -79,9 +79,9 @@ const sidebar = {
           // 是否折叠
           collapsed: false,
           items: [
-              {text: '1-A', link: '/demo1/a'},
-              {text: '1-B', link: '/demo1/b'},
-              {text: '1-C', link: '/demo1/c'}
+              {text: '1-A', link: '/brooke/1'},
+              {text: '1-B', link: '/brooke/2'},
+              {text: '1-C', link: '/brooke/1'}
           ]
       },
       {
@@ -91,9 +91,9 @@ const sidebar = {
           // 是否折叠
           collapsed: false,
           items: [
-              {text: '2-A', link: '/demo2/a'},
-              {text: '2-B', link: '/demo2/b'},
-              {text: '2-C', link: '/demo2/c'}
+              {text: '2-A', link: '/brooke2/1'},
+              {text: '2-B', link: '/brooke2/2'},
+              {text: '2-C', link: '/brooke2/1'}
           ]
       }
   ],
@@ -105,9 +105,9 @@ const sidebar = {
           // 是否默认展开
           collapsed: true,
           items: [
-              {text: '2-A', link: '/demo2/a'},
-              {text: '2-B', link: '/demo2/b'},
-              {text: '2-C', link: '/demo2/c'}
+              {text: '2-A', link: '/brooke2/1'},
+              {text: '2-B', link: '/brooke2/1'},
+              {text: '2-C', link: '/brooke2/1'}
           ]
       }
   ]
@@ -119,7 +119,7 @@ const themeConfig = {
   // 顶部导航
   nav,
   // 站点标题
-  siteTitle: '蛛网文档库',
+  siteTitle: '徐大兵',
   // 最后跟新时间标题
   lastUpdatedText: '上次更新',
   // logo
@@ -141,11 +141,11 @@ module.exports = {
   // markdown 配置
   markdown,
   // 站点标题
-  title: '运营文档库',
+  title: 'Cobweb Docs',
   // 站点说明
   description: '徐大兵',
   // base URL
-  base: '/vite/',
+  base: './',
   // 站点lang
   lang: 'zh-CN',
   // 是否显示更新时间
