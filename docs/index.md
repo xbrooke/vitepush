@@ -4,10 +4,10 @@ layout: home
 hero:
   name:  蟹蟹有你
   text: 运营有我，签单不愁。
-  tagline: /后端(Java) 😂...
+  tagline: /
   image:
-    src: ./images/logo.png
-    alt: Cobweb Docs Vitepress
+    src: /
+    alt: 
   actions:
     - theme: brand
       text: 点击了解
@@ -17,9 +17,12 @@ hero:
       link: https://my.oschina.net/520wsl
 
 features:
-  - icon: ./images/img/meituanbao.png
+  - icon: 🖖
     title: 大众点评
-    details: 星级我有，
+    alt: 点击查看更多
+    theme: brand
+    text: 点击了解
+    link: https://taobao.com
   - icon: 🖖
     title: 后端
     details: Python3, PHP, SprinBoot, mysql, seqServer
