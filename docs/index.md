@@ -26,7 +26,7 @@ import {
 
 const members = [
   {
-    avatar: './images/img/xiaohongshu.png',
+    avatar: '/images/img/xiaohongshu.png',
     name: 'Evan You',
     title: 'Creator',
     links: [
