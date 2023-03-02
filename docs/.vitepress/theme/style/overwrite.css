@@ -2,7 +2,10 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
-.VPTeamPage  .avatar-img {
+.VPTeamPage .avatar {
+    background:  transparent !important;
+    box-shadow: unset;
+}
+.VPTeamPage .avatar > .avatar-img {
     border-radius: 5px !important;
 }
