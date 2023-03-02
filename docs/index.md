@@ -26,7 +26,7 @@ import {
 
 const members = [
   {
-    avatar: 'https://s1.ax1x.com/2023/03/02/ppFWBjK.png',
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
     name: 'Evan You',
     title: 'Creator',
     links: [
