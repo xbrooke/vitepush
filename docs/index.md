@@ -27,66 +27,53 @@ import {
 const members = [
   {
     avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-    ]
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
+  {
+    avatar: 'https://github.com/xbrooke/vite/blob/main/docs/images/img/xiaohongshu.png?raw=true',
+    name: '小红书',
+    title: '>>了解详情',
+    sponsor: 'https://github.com/sponsors/ArnaudBarre',
+  },
+
 ]
 </script>
 
