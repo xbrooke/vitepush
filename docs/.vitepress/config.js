@@ -84,7 +84,7 @@ const sidebar = {
         collapsed: false,
         items: [
             {text: '渠道规则', link: '/demo1/a'},
-            {text: '镜', link: '/demo1/b'},
+            {text: '好好住', link: '/brooke/hhz'},
         ]
     },
       {
