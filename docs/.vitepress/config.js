@@ -119,6 +119,7 @@ const sidebar = {
 
 // 主题配置
 const themeConfig = {
+  
   // 全局左侧菜单
   sidebar,
   // 顶部导航
@@ -158,4 +159,6 @@ module.exports = {
   // 当设置为true时，VitePress不会因死链接而导致构建失败。
   ignoreDeadLinks: true,
   head
+
+  
 }
