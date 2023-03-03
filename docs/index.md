@@ -27,7 +27,7 @@ import {
 const members = [
   {
     avatar: './images/img/haohaozhu.png',
-    name: 'haohaozhu',
+    name: '好好住',
     title: '>>了解详情',
     sponsor: './brooke/hhz',
   },
