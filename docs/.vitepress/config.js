@@ -94,7 +94,7 @@ const sidebar = {
         // 是否折叠
         collapsed: false,
         items: [
-            {text: '2-A', link: '/demo1/a'},
+            {text: '好好住', link: '/brooke/hhz'},
             {text: '2-B', link: '/brooke2/2'},
             {text: '2-C', link: '/brooke2/1'}
         ]
@@ -119,6 +119,7 @@ const sidebar = {
 
 // 主题配置
 const themeConfig = {
+  
   // 全局左侧菜单
   sidebar,
   // 顶部导航
@@ -158,4 +159,6 @@ module.exports = {
   // 当设置为true时，VitePress不会因死链接而导致构建失败。
   ignoreDeadLinks: true,
   head
+
+  
 }
