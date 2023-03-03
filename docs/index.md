@@ -32,10 +32,10 @@ const members = [
     sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
   {
-    avatar: '/images/img/zhuxiaobang.png',
-    name: '住小帮',
+    avatar: '/images/img/haohaozhu.png',
+    name: '好好住',
     title: '>>了解详情',
-    sponsor: 'https://github.com/sponsors/ArnaudBarre',
+    sponsor: './brooke/hhz',
   },
     {
     avatar: 'https://s2.loli.net/2023/03/03/SvcQbuDlROh5q8T.png',
