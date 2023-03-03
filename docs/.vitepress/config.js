@@ -1,5 +1,5 @@
 const head = [
-  ['link', {rel: 'icon', href: './images/logo.png'}]
+  ['link', {rel: 'icon', href: 'https://s2.loli.net/2023/03/03/IduznQDYlVt6MBo.png'}]
 ]
 
 // markdown 配置
