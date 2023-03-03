@@ -40,63 +40,67 @@ const docFooter = {
 const nav = [
   {text: '首页', link: '/'},
   {
-      text: '案例1',
-      activeMatch: '/demo1/',
+      text: '我们的优势',
+      activeMatch: '/demo1/',//在同一个文件夹的目录，关联其他目录就不会固定左边栏
       items: [
           {
-              text: 'A',
+              text: '团队优势',
               items: [
-                  {text: 'A', link: '/demo1/a'},
-                  {text: 'B', link: '/demo1/b'},
+                  {text: '人员架构', link: '/demo1/a'},
+                  {text: '团队技能', link: '/demo1/b'},
               ]
+              
           },
           {
-              text: 'B',
+              text: '运营优势',
               items: [
-                  {text: 'A', link: '/demo2/a'},
-                  {text: 'B', link: '/demo2/b'},
+                  {text: '渠道规则', link: '/demo1/a'},
+                  {text: '团队赋能', link: '/demo1/b'},
               ]
-          },
-      ]
-  },
-  {
-      text: '案例2',
-      activeMatch: '/demo2/',
-      items: [
-          {text: 'A', link: '/demo2/a'},
-          {text: 'B', link: '/demo2/b'},
+          }
       ]
   }
 ]
 
-// 全局左侧菜单
+// 全局左侧菜单 显示我们优势的总栏
 const sidebar = {
   '/demo1/': [
       {
-          text: '案例1',
+          text: '我们的优势',
           // 是否可收缩
           collapsible: true,
           // 是否折叠
           collapsed: false,
           items: [
-              {text: '1-A', link: '/demo1/a'},
-              {text: '1-B', link: '/demo1/b'},
-              {text: '1-C', link: '/demo1/c'}
+              {text: '运营团队', link: '/demo2/a'},
+              {text: '团队赋能', link: '/demo2/b'},
           ]
       },
       {
-          text: '案例2',
-          // 是否可收缩
-          collapsible: true,
-          // 是否折叠
-          collapsed: false,
-          items: [
-              {text: '2-A', link: '/demo2/a'},
-              {text: '2-B', link: '/demo2/b'},
-              {text: '2-C', link: '/demo2/c'}
-          ]
-      }
+        text: '运营优势',
+        // 是否可收缩
+        collapsible: true,
+        // 是否折叠
+        collapsed: false,
+        items: [
+            {text: '渠道规则', link: '/demo1/a'},
+            {text: '镜', link: '/demo1/b'},
+        ]
+    },
+      {
+        text: '优秀案例',
+        // 是否可收缩
+        collapsible: true,
+        // 是否折叠
+        collapsed: false,
+        items: [
+            {text: '2-A', link: '/demo1/a'},
+            {text: '2-B', link: '/brooke2/2'},
+            {text: '2-C', link: '/brooke2/1'}
+        ]
+    }
   ],
+  //第二栏不会出现第一栏的内容标题
   '/demo2/': [
       {
           text: '案例2',
@@ -105,13 +109,14 @@ const sidebar = {
           // 是否默认展开
           collapsed: true,
           items: [
-              {text: '2-A', link: '/demo2/a'},
-              {text: '2-B', link: '/demo2/b'},
-              {text: '2-C', link: '/demo2/c'}
+              {text: '2-A', link: '/brooke2/1'},
+              {text: '2-B', link: '/brooke2/1'},
+              {text: '2-C', link: '/brooke2/1'}
           ]
       }
   ]
 }
+
 // 主题配置
 const themeConfig = {
   // 全局左侧菜单
