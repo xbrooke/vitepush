@@ -6,7 +6,7 @@ hero:
   text: 运营有我，签单不愁。
   tagline: 
   image:
-    src: ./
+    src: https://s2.loli.net/2023/03/03/IduznQDYlVt6MBo.png
     alt: 
   actions:
     - theme: brand
