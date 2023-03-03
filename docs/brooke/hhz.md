@@ -16,7 +16,7 @@ title: 好好住
 
 - `封面图`（前后对比）
 
-  ![](./images/haoahozhu/fengmian.jpg)
+  ![](./images/haohaozhu.png)
 
 - `标题 `（突出户型改造重点或者设计亮点）
 
