@@ -16,7 +16,7 @@ import oschina from '.././images/oschina.txt'
 // 社交链接
 const socialLinks = [
   // 默认支持 'discord' | 'facebook' | 'github' | 'instagram' | 'linkedin' | 'slack' | 'twitter' | 'youtube'
-  {icon: 'github', link: 'https://github.com/520wsl'},
+  {icon: 'github', link: 'https://github.com/xbrooke'},
   // 或者导入svg图片
   {icon: {svg: gitee}, link: 'https://gitee.com/maddragon'},
   {icon: {svg: coding}, link: 'https://maddragon.coding.net/user/projects'},
@@ -27,7 +27,7 @@ const footer = {
   // 消息
   message: 'MIT Licensed',
   // 版权
-  copyright: '版权声明：本中文文档内容版权为 <a href="https://github.com/520wsl" target="_black" >MadDragon</a> 所有，保留所有权利。'
+  copyright: '徐大兵维护为 <a href="https://github.com/xbrooke" target="_black" >MadDragon</a> 所有，保留所有权利。'
 }
 
 // 上一个和下一个链接上方显示的文本
@@ -128,7 +128,7 @@ const themeConfig = {
   // 最后跟新时间标题
   lastUpdatedText: '上次更新',
   // logo
-  logo: './images/logo.png',
+  logo: 'https://s2.loli.net/2023/03/03/IduznQDYlVt6MBo.png',
   // 社交链接
   socialLinks,
   // 页脚配置
