@@ -73,12 +73,6 @@ const members = [
     title: '>>了解详情',
     sponsor: 'https://github.com/sponsors/ArnaudBarre',
   },
-  {
-    avatar: 'https://s2.loli.net/2023/03/03/SvcQbuDlROh5q8T.png',
-    name: '小红书',
-    title: '>>了解详情',
-    sponsor: 'https://github.com/sponsors/ArnaudBarre',
-  },
 
 ]
 </script>
