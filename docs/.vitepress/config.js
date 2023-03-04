@@ -25,9 +25,9 @@ const socialLinks = [
 // 页脚配置
 const footer = {
   // 消息
-  message: 'MIT Licensed',
+  message: ' 蟹蟹有你团队',
   // 版权
-  copyright: '徐大兵维护为 <a href="https://github.com/xbrooke" target="_black" >MadDragon</a> 所有，保留所有权利。'
+  copyright: '©2023 <a href="https://github.com/xbrooke" target="_black" >  | 徐大兵维护</a> '
 }
 
 // 上一个和下一个链接上方显示的文本
